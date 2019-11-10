@@ -1,0 +1,29 @@
+.list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-wrapper .item .card-wrapper{
+    padding: 16px;
+}
+
+@media only screen and (min-width: 941px) {
+    .list-wrapper .item{
+        flex: 1 1 25%;
+        max-width: 25%;
+    }
+}
+
+@media only screen and (max-width: 941px) {
+    .list-wrapper .item{
+        flex: 1 1 33%;
+        max-width: 33%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .list-wrapper .item{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
