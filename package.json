@@ -21,7 +21,8 @@
     "test": "react-scripts test",
     "test:unit": "CI=false react-scripts test --no-watch",
     "test:coverage": "CI=false react-scripts test --coverage --no-watch",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "firebase-deploy": "firebase deploy --only hosting:react-card-manager"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "apinto-frontend-samples"
+  },
+  "targets": {
+    "apinto-frontend-samples": {
+      "hosting": {
+        "react-card-manager": [
+          "apinto-react-card-manager"
+        ]
+      }
+    }
+  }
+}
